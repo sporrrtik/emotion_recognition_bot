@@ -44,7 +44,7 @@ async def send_welcome(message: types.Message):
     """
     This handler will be called when user sends `/start` or `/help` command
     """
-    await message.reply("Hi!\nI'm EchoBot!\nPowered by aiogram.")
+    await message.reply("Привет! Я могу извлекать эмоции из текста или аудио. Просто перешли мне текстовое или голосовое сообщение, а я подскажу тебе какую эмоцию испытывает твой собеседник)")
 
 
 @dp.message_handler()
