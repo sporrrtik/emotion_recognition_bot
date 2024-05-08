@@ -18,12 +18,12 @@ dp = Dispatcher(bot)
 
 emotion_dict = {
     "disgust": "отвращение",
-    "happiness": "счастье",
-    "anger": "злость",
+    "happiness": "радость",
+    "anger": "гнев",
     "fear": "страх",
-    "enthusiasm": "энтузиазм",
+    "enthusiasm": "воодушевление",
     "neutral": "нейтральная",
-    "sadness": "грусть",
+    "sadness": "печаль",
 }
 
 @dp.message_handler(content_types=ContentType.VOICE)
